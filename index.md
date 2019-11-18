@@ -26,6 +26,8 @@ basic window. easy to set animation.
 
 #### Property
 
+![inspector](img/window_inspector.png)
+
 |property|type|description|
 |---|---|---|
 |ShouldInactiveOnPlay|bool|アプリケーションを起動したとき<br>非アクティブにします|
@@ -42,6 +44,8 @@ basic window. easy to set animation.
 windowに設定するとアニメーションが再生されます.
 
 #### Property
+
+![inspector](img/animation_inspector.png)
 
 |property|type|description|
 |---|---|---|
