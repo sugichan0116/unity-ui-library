@@ -3,6 +3,14 @@ layout: default
 title: Document | dj.sugi studio
 ---
 
+## Get Start
+ベーシックなUIのライブラリです.  
+インスペクタ上で簡単に設定できます.  
+DOTWEENをラッピングしています.
+
+[Releases - unitypackage download](https://github.com/sugichan0116/unity-ui-library/releases)
+
+
 ## Document
 
 ### Window.cs
@@ -16,7 +24,7 @@ basic window. easy to set animation.
 |Close()|ウィンドウを閉じる|
 |Toggle()|開いていたら閉じ, 閉じていたら開ける|
 
-#### property
+#### Property
 
 |property|type|description|
 |---|---|---|
@@ -34,6 +42,7 @@ basic window. easy to set animation.
 windowに設定するとアニメーションが再生されます.
 
 #### Property
+
 |property|type|description|
 |---|---|---|
 |Development|bool|発展設定を有効にします|
@@ -49,6 +58,7 @@ windowに設定するとアニメーションが再生されます.
 |SetAnimation|Function|UIAnimationをWindowに設定します|
 
 #### Extention Class
+
 |Component|description|
 |---|---|
 |UIAnimationCanvasGroup|CanvasGroupのAlpha値をアニメーションします<br>ウィンドウのフェード処理に用います|
@@ -62,27 +72,6 @@ windowに設定するとアニメーションが再生されます.
 ---
 
 ### Test
-<details>
-<summary>押してみそ？</summary>
-な？
-
-|Component|description|
-|---|---|
-|UIAnimationCanvasGroup|CanvasGroupのAlpha値をアニメーションします<br>ウィンドウのフェード処理に用います|
-
-どう？
-</details>
-
-<details>
-<summary>押してみそ？</summary>
-な？
-
-```pl
-use strict;
-```
-
-どう？
-</details>
 
 ```
 print(11)
