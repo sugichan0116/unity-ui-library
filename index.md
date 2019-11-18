@@ -44,9 +44,6 @@ DOTWEENをラッピングしています.
 
 ![inspector](img/window_inspector.png)
 
-<details>
-<summary>Show detailed properties</summary><div>
-
 |property|type|description|
 |---|---|---|
 |ShouldInactiveOnPlay|bool|アプリケーションを起動したとき<br>非アクティブにします|
@@ -57,7 +54,6 @@ DOTWEENをラッピングしています.
 |Animations|UIAnimation[]|オープン・クローズ時に再生される<br>アニメーションを設定します|
 |SearchAnimations|Function|自分や子供から`UIAnimation.cs`を検索し<br>Animationsに設定します|
 
-</div></details>
 
 <br><br>
 
@@ -71,9 +67,6 @@ DOTWEENをラッピングしています.
 #### Property
 
 ![inspector](img/animation_inspector.png)
-
-<details>
-<summary>Show detailed properties</summary>
 
 |property|type|description|
 |---|---|---|
@@ -89,7 +82,6 @@ DOTWEENをラッピングしています.
 |OutCurve|AnimationCurve|Hide時のイージングを設定します|
 |SetAnimation|Function|`UIAnimation.cs`を`Window.cs`に設定します|
 
-</details>
 
 #### Extention Class
 
@@ -117,9 +109,6 @@ DOTWEENをラッピングしています.
 
 ![inspector](img/tab_inspector.png)
 
-<details>
-<summary>Show detailed properties</summary>
-
 |property|type|description|
 |---|---|---|
 |HeaderContainer|ContentContainer|タブのヘッダーコンテナ<br>`TabHeader.cs`が子要素として認識される|
@@ -129,7 +118,6 @@ DOTWEENをラッピングしています.
 |PreviousTab|Function|前のタブへ移動|
 |LinkTabHeader|Function|ヘッダとコンテントをリンクします<br>実行前に必ずリンクしてください|
 
-</details>
 
 <br><br>
 
@@ -149,14 +137,9 @@ DOTWEENをラッピングしています.
 
 #### Property
 
-<details>
-<summary>Show detailed properties</summary>
-
 |property|type|description|
 |---|---|---|
 |SelectTab|Function|ヘッダに紐づいたコンテントへ更新|
-
-</details>
 
 
 <br><br>
@@ -174,9 +157,6 @@ ScrollBarによってリストをコントロールできます.
 
 ![inspector](img/scroll_inspector.png)
 
-<details>
-<summary>Show detailed properties</summary>
-
 |property|type|description|
 |---|---|---|
 |Bar|Scrollbar|リストのコントローラー|
@@ -185,8 +165,6 @@ ScrollBarによってリストをコントロールできます.
 |UpdateContent|Function|`Value`の位置にコンテントを更新する|
 |NextContent|Function|次の要素へ移動する|
 |PreviousContent|Function|前の要素へ移動する|
-
-</details>
 
 
 <br><br>
@@ -202,15 +180,10 @@ ScrollBarによってリストをコントロールできます.
 
 ![inspector](img/container_inspector.png)
 
-<details>
-<summary>Show detailed properties</summary>
-
 |property|type|description|
 |---|---|---|
 |Updaters|ContentUpdater[]|実行される`ContentUpdater.cs`のリスト|
 |SetUpdater|Function|同オブジェクトの`ContentUpdater.cs`を検索して設定する|
-
-</details>
 
 
 <br><br>
