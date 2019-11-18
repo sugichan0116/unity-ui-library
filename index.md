@@ -10,6 +10,9 @@ DOTWEENをラッピングしています.
 
 [Releases - unitypackage download](https://github.com/sugichan0116/unity-ui-library/releases)
 
+<br>
+---
+<br>
 
 ## Document
 
@@ -38,7 +41,10 @@ basic window. easy to set animation.
 |Animations|UIAnimation[]|オープン・クローズ時に再生される<br>アニメーションを設定します|
 |SearchAnimations|Function|自分や子供からUIAnimationを検索し<br>Animationsに設定します|
 
+<br>
 ---
+<br>
+
 
 ### UIAnimation.cs
 windowに設定するとアニメーションが再生されます.
@@ -72,8 +78,9 @@ windowに設定するとアニメーションが再生されます.
 |UIAnimationScale|Scaleをアニメーションします|
 
 
-
+<br>
 ---
+<br>
 
 ### Test
 
