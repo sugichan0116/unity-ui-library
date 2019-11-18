@@ -45,7 +45,7 @@ DOTWEENをラッピングしています.
 ![inspector](img/window_inspector.png)
 
 <details>
-<summary>Show detailed properties</summary>
+<summary>Show detailed properties</summary><div>
 
 |property|type|description|
 |---|---|---|
@@ -57,7 +57,7 @@ DOTWEENをラッピングしています.
 |Animations|UIAnimation[]|オープン・クローズ時に再生される<br>アニメーションを設定します|
 |SearchAnimations|Function|自分や子供から`UIAnimation.cs`を検索し<br>Animationsに設定します|
 
-</details>
+</div></details>
 
 <br><br>
 
